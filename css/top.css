@@ -1,0 +1,35 @@
+html {
+  background-color: #000000;
+}
+body {
+  color: #FFFFFF;
+}
+header {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /*background-color: red;*/ /* for Debug */
+}
+.title {
+  font-size: 48px;
+}
+.language {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: blue;*/ /* for Debug */
+  padding-top: 50px;
+}
+.language li {
+  padding-bottom: 5px;
+  text-align: center;
+}
+.language a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.language a:hover {
+  color: #888888;
+}
