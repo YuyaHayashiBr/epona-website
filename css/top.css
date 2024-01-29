@@ -1,5 +1,6 @@
 html {
-  background-color: #000000;
+  /*background-color: #000000;*/
+  background-color: #888888;
 }
 body {
   color: #FFFFFF;
@@ -14,6 +15,7 @@ header {
 }
 .title {
   font-size: 48px;
+  font-family: 'Aqua Grotesque', sans-serif;
 }
 .language {
   display: flex;
@@ -31,5 +33,5 @@ header {
   color: #FFFFFF;
 }
 .language a:hover {
-  color: #888888;
+  color: #000000;
 }
