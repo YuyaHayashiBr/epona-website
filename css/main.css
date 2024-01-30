@@ -1,7 +1,9 @@
+html {
+  background-color: #000000;
+}
 .navbar-light .navbar-toggler {
   border-color: rgba(0,0,0,0);
 }
-
 .logo {
   font-family: 'Aqua Grotesque', sans-serif;
 }
