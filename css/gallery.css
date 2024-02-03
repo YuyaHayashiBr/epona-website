@@ -58,13 +58,18 @@ header h1 {
   position: absolute;
 }
 .layer1 {
+  z-index: -10;
+}
+.layer2 {
+  z-index: -9;
+}
+.background {
   background-image: url(../img/sample01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: -10;
 }
-.layer2 {
+.background-effect {
   content: '';
   position: absolute;
   top: 0;
@@ -72,11 +77,4 @@ header h1 {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.75);
-  z-index: -9;
-}
-.layer3 {
-  background-color: seagreen;
-  top: 70px;
-  left: 30px;
-  z-index: 3;
 }
