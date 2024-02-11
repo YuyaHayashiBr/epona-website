@@ -1,0 +1,93 @@
+.bg-image {
+  /*background-color: red;*/
+  background-image: url(../img/sample01.jpg);
+  /*background-size: auto;*/
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.bg-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+}
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+.logo {
+  font-family: 'Aqua Grotesque', sans-serif;
+}
+header {
+  margin-top: 30px;
+  width: 90%;
+  height: 50px;
+  /*background-color: red;*/
+  position: absolute;
+}
+header h1 {
+  padding-top: 10px;
+  padding-left: 10%;
+  color: #FFFFFF;
+}
+.main {
+  margin-top: 90px;
+  width: 90%;
+  /*height: 100px;*/
+  /*background-color: blue;*/
+  position: absolute;
+}
+.main p {
+  padding-left: 10%;
+  padding-top: 5px;
+  color: #FFFFFF;
+}
+
+.container {
+  position: relative;
+}
+.layer {
+  width: 100%;
+  position: absolute;
+}
+.layer1 {
+  z-index: -10;
+}
+.layer2 {
+  z-index: -9;
+}
+.layer3 {
+  z-index: -8;
+}
+.background {
+  background-image: url(../img/sample01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+.background-effect {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+  height: 100%;
+}
+.contents-wrapper {
+  margin-top: 56px;
+}
+.content-title {
+  padding: 10px 0px 10px 20px;
+}
+.content-subtitle {
+  padding: 8px 0px 8px 30px;
+}
