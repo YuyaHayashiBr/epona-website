@@ -2,7 +2,7 @@
 
 ## サンプルURL
 
-https://yuyahayashibr.github.io/epona-website/
+https://yuyan884.github.io/epona-website/
 
 
 ## フォント
